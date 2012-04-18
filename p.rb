@@ -3,7 +3,7 @@ require 'jekyll'
 require 'fileutils'
 require 'posterous'
 require 'net/http'
-require 'URI'
+require 'uri'
 
 Posterous.config = {
   'username'  => ARGV[0],
