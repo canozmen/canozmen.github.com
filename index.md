@@ -5,28 +5,26 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-<div class="blog-index">
-  {% assign index = true %}
+{% assign index = true %}
   {% for post in paginator.posts %}
   {% assign content = post.content %}
     <article>
       {% include article.html %}
     </article>
   {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+
+
+Here's a sample "posts list".
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+## To-Do
+
+This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
+We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+
+
