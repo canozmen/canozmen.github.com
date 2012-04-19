@@ -6,7 +6,7 @@ tagline: Kaçtım kurtuldum
 {% include JB/setup %}
 
 <ul class="posts">
-  {% for post in site.posts[0..10] %}
+  {% for post in site.posts limit:10 %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.url }}</a></li>
   {% endfor %}
 </ul>
