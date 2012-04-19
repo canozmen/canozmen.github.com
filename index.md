@@ -5,7 +5,9 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 {% assign posts_collate = site.posts %}
+<div>
 {% include JB/posts_collate %}
+</div>
 
 ## To-Do
 
