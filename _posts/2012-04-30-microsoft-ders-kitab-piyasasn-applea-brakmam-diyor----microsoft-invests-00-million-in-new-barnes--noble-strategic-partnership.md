@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft ders kitabı piyasasını Apple'a bırakmam diyor   > Microsoft invests 00 million in new Barnes & Noble 'strategic partnership'"
+title: "Microsoft ders kitabı piyasasını Apple'a bırakmam diyor --> Microsoft invests $300 million in new Barnes & Noble 'strategic partnership'"
 description: ""
 category: 
 tags: []
