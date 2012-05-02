@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-![octo](https://a248.e.akamai.net/camo.github.com/5e6eb0b00d714eb5b8ec84254205c61c2a97c68d/687474703a2f2f6f63746f6465782e6769746875622e636f6d2f696d616765732f77616c646f6361742e6a7067)
+<div><img src="https://a248.e.akamai.net/camo.github.com/5e6eb0b00d714eb5b8ec84254205c61c2a97c68d/687474703a2f2f6f63746f6465782e6769746875622e636f6d2f696d616765732f77616c646f6361742e6a7067" width="300" alt="octo" /></div>
 
 > Excited to play around with all this data? We'd love to see what you come up with.
 > 
