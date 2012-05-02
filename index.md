@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Bay bay posterous
-tagline: Kaçtım kurtuldum
+title: bay bay posterous
+tagline: kaçtım kurtuldum
 ---
 {% include JB/setup %}
 
@@ -11,7 +11,7 @@ tagline: Kaçtım kurtuldum
   {% endfor %}
 </ul>
 
-## To-Do
+## todo:
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.
