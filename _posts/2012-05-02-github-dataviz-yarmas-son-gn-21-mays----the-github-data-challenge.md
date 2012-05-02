@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitHub dataviz yarışması ((son gün 21 Mayıs))   > The GitHub Data Challenge"
+title: "GitHub dataviz yarışması ((son gün 21 Mayıs)) --> The GitHub Data Challenge"
 description: ""
 category: 
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Son Startup Weekend İstanbul hakkında farklı yorumlar   > Startup Weekend İstanbul'da girişim takımları kuruldu ve maraton başladı"
+title: "Son Startup Weekend İstanbul hakkında farklı yorumlar --> Startup Weekend İstanbul'da girişim takımları kuruldu ve maraton başladı"
 description: ""
 category: 
 tags: []

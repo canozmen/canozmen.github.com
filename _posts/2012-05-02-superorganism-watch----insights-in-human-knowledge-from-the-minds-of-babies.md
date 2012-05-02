@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Superorganism watch   > Insights in Human Knowledge, From the Minds of Babies"
+title: "Superorganism watch --> Insights in Human Knowledge, From the Minds of Babies"
 description: ""
 category: 
 tags: []

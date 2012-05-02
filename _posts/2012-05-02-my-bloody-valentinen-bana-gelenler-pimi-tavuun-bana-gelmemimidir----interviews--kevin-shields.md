@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Bloody Valentine'ın başına gelenler pişmiş tavuğun başına gelmemiş(mi)dir --> Interviews  Kevin Shields"
+title: "My Bloody Valentine'ın başına gelenler pişmiş tavuğun başına gelmemiş(mi)dir? --> Interviews  Kevin Shields"
 description: ""
 category: 
 tags: []

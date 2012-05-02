@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Minecraft ile post scarcity simulasyonu   > Making Light"
+title: "Minecraft ile post scarcity simulasyonu --> Making Light"
 description: ""
 category: 
 tags: []
