@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-![google street view pose](http://www.eyecurious.com/wp-content/uploads/2012/05/tumblr_lziwksBlv51qzun8oo1_1280-1024x640.jpg)
+<div><img src="http://www.eyecurious.com/wp-content/uploads/2012/05/tumblr_lziwksBlv51qzun8oo1_1280-1024x640.jpg" width="300" /></div>
 
 > *How conscious were you of specific street photographers’ styles when taking these images?*
 > 
