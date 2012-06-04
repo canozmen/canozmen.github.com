@@ -1,0 +1,90 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Benim Kararım</title>
+  <meta name="description" content="Benim Kararim">
+  <meta name="viewport" content="width=device-width">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.0.0.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="https://raw.github.com/HPNeo/gmaps/master/gmaps.js"></script>
+  <script type="text/javascript" src="geo.js"></script>
+</head>
+
+<body>
+  
+  <div id="header">  
+  </div>
+  <div id="map" style="min-height: 400px">
+  </div>
+  <div id="main">
+    <div id="text-area">
+      <textarea id="t_area" rows="3" cols="50"></textarea>
+    </div>
+    <div>
+      <a id="locate" href="#">Yerimi Bul</a>
+    </div>
+    <div>
+      <a id="submit" href="#">Gonder</a>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      Parse.initialize("l1y9tyM2qSnotprBpZ4yhbeFy2eTgALNdGEu9D6h", "azZUSIUTUkNgolDxgwV1Q2nlQmILMBOnfWSjVBXj");
+
+      new GMaps({
+        div: '#map',
+        lat: 41.106099,
+        lng: 29.033085,
+        zoom: 10
+      });
+
+      function cacheLocation(position) {
+        console.log(position);
+
+        var lat = position.coords.latitude;
+        var lng = position.coords.longitude;
+      }
+
+      function handleLocError (error) {
+        if (error.code == 1) {
+          alert("NOOOOO!!!");
+        }
+      }
+
+      $("#locate").click(function() {
+        if (Modernizr.geolocation) {
+          navigator.geolocation.getCurrentPosition(cacheLocation, handleLocError);
+        }
+        else {
+          alert("FTW!!");
+        }
+      });
+
+      $("#submit").click(function() {
+        var TextObject = Parse.Object.extend("TextObject");
+        var textObject = new TestObject();
+
+      });
+
+    });
+    
+    /*
+    var TestObject = Parse.Object.extend("TestObject");
+    var testObject = new TestObject();
+      testObject.save({foo: "bar"}, {
+      success: function(object) {
+        $(".success").show();
+      },
+      error: function(model, error) {
+        $(".error").show();
+      }
+    });
+    */
+  </script>
+</body>
+
+</html>
